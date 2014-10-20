@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ARNFetchedResultsController"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Wrapper of NSFetchedResultsController."
   s.homepage         = "https://github.com/xxxAIRINxxx/ARNFetchedResultsController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

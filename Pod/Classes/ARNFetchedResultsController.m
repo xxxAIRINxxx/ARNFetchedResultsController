@@ -112,7 +112,7 @@
     if (self.fetchedResultsController != controller) { return; }
     
     if (self.willChangeContentBlock) {
-        self.willChangeContentBlock();
+        self.willChangeContentBlock(controller);
     }
 }
 
@@ -146,7 +146,7 @@
     if (_fetchedResultsController != controller) { return; }
     
     if (self.didChangeContentBlock) {
-        self.didChangeContentBlock();
+        self.didChangeContentBlock(controller);
     }
 }
 
